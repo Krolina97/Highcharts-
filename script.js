@@ -26,7 +26,7 @@ $(document).ready(function() {
   ];
 
   // x-axis label and label in tooltip
-  var X_AXIS = 'Cities';
+  var X_AXIS = 'Metropolitan area';
 
   // y-axis label, label in tooltip
   var Y_AXIS = 'Rent Share Percentage';
