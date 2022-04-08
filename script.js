@@ -14,12 +14,12 @@ $(document).ready(function() {
   // For each column representing a data series, define its name and color
   var SERIES = [  
     {
-      column: 'february_2022',
+      column: 'nonlearner',
       name: 'February 2022 Rent Share',
       color: 'red'
     },
     {
-      column: 'february_2021',
+      column: 'learner',
       name: 'February 2021 Rent Share',
       color: 'blue'
     }
