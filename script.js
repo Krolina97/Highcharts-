@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-  var TITLE = 'English Learners by Select School Districts in CT, 2018-19';
+  var TITLE = 'Miami is Twice as High as the Approximated Highest Economical Rent for the Average American Household';
 
   // `false` for vertical column chart, `true` for horizontal bar chart
   var HORIZONTAL = false;
@@ -14,22 +14,22 @@ $(document).ready(function() {
   // For each column representing a data series, define its name and color
   var SERIES = [  
     {
-      column: 'nonlearner',
-      name: 'Non-Learners',
+      column: 'February 2022 Rent Share',
+      name: 'February 2022 Rent Share',
       color: 'grey'
     },
     {
-      column: 'learner',
-      name: 'Learners',
+      column: 'February 2021 Rent Share',
+      name: 'February 2021 Rent Share',
       color: 'blue'
     }
   ];
 
   // x-axis label and label in tooltip
-  var X_AXIS = 'School Districts';
+  var X_AXIS = 'Cities';
 
   // y-axis label, label in tooltip
-  var Y_AXIS = 'Number of Enrolled Students';
+  var Y_AXIS = 'Rent Share Percentage';
 
   // `true` to show the grid, `false` to hide
   var SHOW_GRID = true; 
