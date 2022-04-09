@@ -15,12 +15,12 @@ $(document).ready(function() {
   var SERIES = [  
     {
       column: 'february 2022',
-      name: 'February 2022',
+      name: 'Rent Price in February 2022',
       color: 'red'
     },
     {
       column: 'february 2021',
-      name: 'February 2021',
+      name: 'Rent Price in February 2021',
       color: 'blue'
     }
   ];
